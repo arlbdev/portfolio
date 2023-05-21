@@ -10,6 +10,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+
 </head>
 <body>
     <div id="loading">
@@ -133,8 +135,11 @@
                 <p>
                     <form action="https://formsubmit.co/3214e08470f42f4e89513c6a7ad805cd" method="POST">
                         <input type="text" name="name" placeholder="Name" required>
-                        <input type="email" name="name" placeholder="Email" required><br>
+                        <input type="email" name="email" placeholder="Email" required><br>
                         <textarea placeholder="Message" name="message" required rows="5"></textarea><br>
+                        <input type="hidden" name="_next" value="https://arlbdev.github.io/portfolio/">
+                        <input type="hidden" name="_subject" value="Portfolio Form Submission">
+                        <input type="hidden" name="_autoresponse" value="Thank you for contacting me through my portfolio website. I appreciate your interest and I'm excited to connect with you. For urgent matters, feel free to contact me through Facebook or Instagram. Thank you once again for reaching out, and I look forward to speaking with you soon! -arb">
                         <button class="btn_one">Send</button>
                     </form> 
                 </p>
